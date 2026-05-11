@@ -1,0 +1,5 @@
+interface Comunicacao {
+    
+    void comunicar(); 
+
+}

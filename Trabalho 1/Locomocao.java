@@ -1,0 +1,5 @@
+interface Locomocao {
+
+    void mover();
+
+}

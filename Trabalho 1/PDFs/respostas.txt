@@ -1,0 +1,50 @@
+1. Onde aparece a herança no projeto?
+R.: Aparecem nas classes RoboExplorador, RoboSeguranca, RoboEntrega e RoboMedico que herdam a classe abstrata Robo.
+
+2. Onde aparece a implementação de interfaces?
+R.: Aparecem nas classes que implementam as interfaces de comportamento, Locomocao, Comunicacao e Acao.
+
+3. Por que Robo possui atributos do tipo interface?
+R.: Para delegar a outra classe implementar o comportamento.
+
+4.O que significa dizer que Robo delega comportamento?
+R.: Deixa a cargo de outra classe fazer a implementação do comportamento.
+
+5. Qual comportamento foi trocado dinamicamente no teste?
+R.: A locomoção do robo foi trocada de "Movendo com rodas" para "Voando".
+
+6. Por que esse projeto é um exemplo do padrão Strategy?
+R.: Permite a troca de comportamento dinamicamente em tempo de execução.
+
+7. Que problema surgiria se todos os comportamentos fossem implementados com if/else dentro de Robo?
+R.: O código ficaria grande, repetitivo e difícil de manter. Além disso, a troca dinâmica de comportamentos mais dificil, pois seria necessário modificar vários if/else dentro da classe Robo.
+
+
+Saida do terminal:
+
+RoboExplorador
+Movendo com esteiras
+Comunicando por rádio
+Explorando ambiente
+==========================================================================
+RoboSeguranca
+Movendo com rodas
+Comunicando por rádio
+Vigiando
+==========================================================================
+RoboEntrega
+Movendo com rodas
+Comunicando por Wifi
+Entregar pacote
+==========================================================================
+RoboMedico
+Movendo com rodas
+Comunicando por Wifi
+Prestar socorro
+==========================================================================
+
+
+RoboSeguranca
+Movendo com rodas
+
+Voando
