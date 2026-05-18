@@ -1,0 +1,23 @@
+1. Onde aparece a herança no projeto?
+R.: As classes RoboExplorador, RoboSeguranca, RoboEntrega e RoboMedico herdam a classe Robo e RoboEntregaSemRetorno além da classe Robo herda a classe RoboEntregador.
+
+2. Qual método representa o Template Method?
+R.: O método executarMissao(), que é a parte comum paras as subclasses.
+
+3. Por que executarMissao() foi declarado como final?
+R.: Para não poder ser alterada nas subclasses.
+
+4. Quais métodos são abstratos?
+R.: Os métodos deslocar() e executarAcaoPrincipal().
+
+5. O que é o hook neste exemplo?
+R.: É o metodo deveRetornarBase(), é um metodo opcinal que a subclasse pode sobrescrever, adiciona um comportamento.
+
+6. Qual subclasse usa o hook?
+R.: A classe RoboEntregaSemRetorno.
+
+7. Por que este projeto é um exemplo do padrão Template Method?
+R.: Pois a classe Robo contém o comportamento padrão das subclasses, tem o esqueleto do código e as subclasses especializam partes do código.
+
+8. Qual a diferença principal entre este exemplo e o padrão Strategy?
+R.: Method reutiliza comportamento por herança e Strategy por Composição, altera o comportamento dinamicamente.

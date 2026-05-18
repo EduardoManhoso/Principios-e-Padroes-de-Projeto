@@ -1,0 +1,58 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Página-1" id="ZNLLvryhNeV4GgVtjIWZ">
+    <mxGraphModel dx="1288" dy="764" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="787" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="405ajbc2m2n4W8xGJVaR-9" parent="1" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;RoboExplorador&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;br&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&amp;nbsp;+ deslocar(): void&lt;br&gt;&amp;nbsp;+ executarAcaoPrincipal(): void" vertex="1">
+          <mxGeometry height="110" width="180" x="54" y="190" as="geometry" />
+        </mxCell>
+        <mxCell id="405ajbc2m2n4W8xGJVaR-10" parent="1" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;RoboSeguranca&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;br&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&amp;nbsp;+ deslocar(): void&lt;br&gt;&amp;nbsp;+ executarAcaoPrincipal(): void&lt;/p&gt;" vertex="1">
+          <mxGeometry height="100" width="180" x="594" y="410" as="geometry" />
+        </mxCell>
+        <mxCell id="405ajbc2m2n4W8xGJVaR-11" parent="1" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;RoboEntrega&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;br&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&amp;nbsp;+ deslocar(): void&lt;br&gt;&amp;nbsp;+ executarAcaoPrincipal(): void&lt;/p&gt;" vertex="1">
+          <mxGeometry height="100" width="180" x="64" y="380" as="geometry" />
+        </mxCell>
+        <mxCell id="405ajbc2m2n4W8xGJVaR-12" parent="1" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;RoboMedico&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&amp;nbsp;+ deslocar(): void&lt;br&gt;&amp;nbsp;+ executarAcaoPrincipal(): void" vertex="1">
+          <mxGeometry height="100" width="180" x="354" y="440" as="geometry" />
+        </mxCell>
+        <mxCell id="405ajbc2m2n4W8xGJVaR-13" edge="1" parent="1" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;" target="405ajbc2m2n4W8xGJVaR-46" value="">
+          <mxGeometry relative="1" width="160" as="geometry">
+            <mxPoint x="635.2478516832007" y="410.0000000000001" as="sourcePoint" />
+            <mxPoint x="438.00195804195795" y="240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="405ajbc2m2n4W8xGJVaR-14" edge="1" parent="1" source="405ajbc2m2n4W8xGJVaR-12" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;" target="405ajbc2m2n4W8xGJVaR-46" value="">
+          <mxGeometry relative="1" width="160" as="geometry">
+            <mxPoint x="754" y="590" as="sourcePoint" />
+            <mxPoint x="381.6182432432431" y="240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="405ajbc2m2n4W8xGJVaR-15" edge="1" parent="1" source="405ajbc2m2n4W8xGJVaR-11" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;" target="405ajbc2m2n4W8xGJVaR-46" value="">
+          <mxGeometry relative="1" width="160" as="geometry">
+            <mxPoint x="654" y="530" as="sourcePoint" />
+            <mxPoint x="314" y="231.34920634920627" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="405ajbc2m2n4W8xGJVaR-16" edge="1" parent="1" source="405ajbc2m2n4W8xGJVaR-9" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;" value="">
+          <mxGeometry relative="1" width="160" as="geometry">
+            <mxPoint x="754" y="550" as="sourcePoint" />
+            <mxPoint x="314" y="165.6349206349206" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="405ajbc2m2n4W8xGJVaR-46" parent="1" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;abstract&amp;gt;&amp;gt;&amp;nbsp;Robo&lt;/i&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;br&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;div&gt;&amp;nbsp;+ iniciarSistema(): void&lt;br&gt;&amp;nbsp;+ deslocar(): void&lt;br&gt;&amp;nbsp;+ executarAcaoPrincipal(): void&lt;br&gt;&amp;nbsp;+ comunicarResultado(): void&lt;/div&gt;&lt;div&gt;&amp;nbsp;+ deveRetornarBase(): void&lt;/div&gt;&lt;div&gt;&amp;nbsp;+ retornarBase(): boolean&lt;/div&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;/p&gt;" vertex="1">
+          <mxGeometry height="160" width="180" x="314" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="e7yr_q3lsmaVlv3qjrKB-7" parent="1" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" value="&lt;div align=&quot;center&quot;&gt;RoboEntregaSemRetorno&lt;/div&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+deveRetornarBase(): boolean&lt;/p&gt;" vertex="1">
+          <mxGeometry height="90" width="190" x="94" y="570" as="geometry" />
+        </mxCell>
+        <mxCell id="e7yr_q3lsmaVlv3qjrKB-14" edge="1" parent="1" source="e7yr_q3lsmaVlv3qjrKB-7" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;" target="405ajbc2m2n4W8xGJVaR-11" value="">
+          <mxGeometry relative="1" width="160" as="geometry">
+            <mxPoint x="534" y="858.6507936507937" as="sourcePoint" />
+            <mxPoint x="664" y="710" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
