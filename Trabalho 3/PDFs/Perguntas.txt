@@ -1,0 +1,14 @@
+1. Onde está a relação 1 → N no sistema?
+R.: Uma classe LeFigaroDigital implementa varias AssinanteApp.
+
+2. Onde está a interface sendo utilizada?
+R.: JornalDigital é implementada por LeFigaroDigital e AssinanteApp é implementada pelo AppCelular, AppTablet e AppWeb.
+
+3. Onde ocorre o desacoplamento?
+R.: LeFigaroDigital não conhece as classes concretas AppCelular, AppTablet e AppWeb só a AssinanteApp.
+
+4. Qual o papel do método notificar()?
+R.: Atualizar automaticamente todos os observadores
+
+5. Por que esse projeto é um exemplo do padrão Observer?
+R.: Pois estabelece uma relação de dependência entre um objeto (sujeito) e vários objetos (observadores) de modo que a mudança no estado do sujeito seja notificada nos observadores.
