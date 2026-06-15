@@ -1,0 +1,29 @@
+1. Qual classe representa o Adapter?
+R.: A classe DocumentoPdf.
+
+2. Qual classe representa o componente adaptado?
+R.: A classe ComponentePdf.
+
+3. Qual interface é esperada pelo sistema cliente?
+R.: A interface Documento.
+
+4. Por que ComponentePdf não pode ser usado diretamente como Documento?
+R.: Pois ele não implementa a classe Documento.
+
+5. Onde ocorre a tradução entre as duas interfaces?
+R.: Na classe DocumentoPdf usa um objeto ComponentePdf que traduz os métodos do Documento para ComponentePdf.
+
+6. Por que DocumentoPdf implementa Documento?
+R.: Para converter uma interface a outra, ajuda na reutilizando o código e intergra classes incompatíveis.
+
+7. Qual é a vantagem de o ServidorWeb usar variáveis do tipo Documento?
+R.: Fica com entrada padronizada, ServidorWeb só vê a classe Documento.
+
+8. Por que este projeto é um exemplo do padrão Adapter?
+R.: Pois o DocumentoPdf traduz a classe ComponentePdf para tipo Documento.
+
+9. Qual a diferença principal entre Adapter e Strategy?
+R.: Adapter traduz uma interface para outra, o Strategy usa componentes de outra classe para executar ações trocando em tempo de execução.
+
+10. O código cliente precisou ser alterado para conhecer os métodos pdf...?
+R.: Não precisou ser alterado, ele utiliza somente a interface Documento.
