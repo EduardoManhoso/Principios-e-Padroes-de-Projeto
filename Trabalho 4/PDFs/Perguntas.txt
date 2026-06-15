@@ -1,0 +1,20 @@
+1. Por que o construtor da classe Vendedor deve ser private?
+R.: Porque o padrão Singleton exige que apenas uma instância da classe possa existir. O construtor privado impede que outras classes criem objetos usando new Vendedor().
+
+2. Qual é o papel do atributo private static Vendedor instancia?
+R.: Ele armazena a única instância da classe. Como é static, pertence à classe e não a um objeto específico.
+
+3. Por que o método getInstance() precisa ser static?
+R.: Porque ele deve poder ser chamado sem que exista um objeto da classe.
+
+4. O que aconteceria se o método getInstance() sempre criasse um novo objeto?
+R.: O padrão Singleton deixaria de existir, pois cada chamada produziria um objeto diferente.
+
+5. Por que a comparação entre as duas referências deve retornar true?
+R.: Porque ambas apontam para a mesma instância criada pelo Singleton.
+
+6. Em que situação real faria sentido existir apenas um objeto responsável por uma configuração ou controle do sistema?
+R.: Controle de impressora, controle de cache do sistema.
+
+7. Qual a diferença entre usar Singleton e simplesmente usar atributos e métodos static?
+R.: Permite criar um objeto único, suportando herança e interfaces. Assim, o Singleton mantém os benefícios da orientação a objetos enquanto garante que exista apenas uma instância da classe.
