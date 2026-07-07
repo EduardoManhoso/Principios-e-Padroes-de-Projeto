@@ -1,0 +1,5 @@
+interface ComponenteGraficoVeiculo{
+	
+	void exibir();
+	
+}
