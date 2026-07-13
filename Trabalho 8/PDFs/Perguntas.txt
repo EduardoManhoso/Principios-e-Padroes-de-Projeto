@@ -1,0 +1,20 @@
+1. Quem é o Receiver no sistema?
+R.: Cozinheiro.
+
+2. Quem é o Invoker?
+R.: Garcom.
+
+3. Quem são os ConcreteCommands?
+R.: PedidoCafe e PedidoCha.
+
+4. Onde ocorre o desacoplamento?
+R.: O desacoplamento ocorre entre o Garçom e o Cozinheiro.
+
+5. Por que o Garcom não precisa conhecer diretamente os métodos do Cozinheiro?
+R.: Porque os comandos PedidoCafe e PedidoCha encapsulam as chamadas aos métodos do Cozinheiro. O Garçom apenas invoca execute() e undo() da interface Command.
+
+6. Qual é o papel do método undo()?
+R.: Desfazer a ultima ação.
+
+7. Por que este exemplo representa o padrão Command?
+R.: Pois ele encapsula requisições, desacoplando quem pede a execução.
